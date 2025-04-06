@@ -1,6 +1,7 @@
 // components/Footer.jsx
 
 import React from 'react';
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,9 +9,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="w-full md:w-4/12 mb-10 md:mb-0">
-            <h3 className="text-3xl font-bold mb-4">
-              Spark <span className="text-purple-400">Machineries</span>
-            </h3>
+            <div className="flex items-center mb-4">
+              <img src={logo} alt="Spark Machineries Logo" className="h-10 mr-3" />
+              <h3 className="text-3xl font-bold">
+                Spark <span className="text-purple-400">Machineries</span>
+              </h3>
+            </div>
             <p className="text-gray-400 mb-6 max-w-sm">
               Leading provider of innovative multilevel robotic parking solutions designed to optimize space and enhance user experience.
             </p>

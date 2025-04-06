@@ -1,6 +1,7 @@
 // components/Navbar.jsx
 
 import React, { useState } from 'react';
+import logo from "../assets/logo.png";
 
 const Navbar = ({ scrollY }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,9 +12,7 @@ const Navbar = ({ scrollY }) => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <span className={`${scrollY > 50 ? 'text-purple-700' : 'text-purple-100'} text-3xl font-bold`}>
-              <span className="text-purple-300">Spark</span> Machineries
-            </span>
+            <img src={logo} alt="Spark Machineries Logo" className="h-16" />
           </div>
 
           {/* Desktop Navigation */}
