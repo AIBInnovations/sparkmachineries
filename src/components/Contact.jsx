@@ -63,7 +63,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800 mb-1">Address</h4>
-                  <p className="text-gray-600">123 Innovation Street, Tech City, TC 12345</p>
+                  <p className="text-gray-600">132 FB scheme no. 94, Ring road, Indore</p>
                 </div>
               </div>
               
@@ -75,7 +75,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800 mb-1">Phone</h4>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+91 9926446622</p>
                 </div>
               </div>
               
@@ -87,7 +87,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800 mb-1">Email</h4>
-                  <p className="text-gray-600">info@sparkmachineries.com</p>
+                  <p className="text-gray-600">sparkmachineries@gmail.com</p>
                 </div>
               </div>
               

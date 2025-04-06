@@ -14,6 +14,15 @@ const Footer = () => {
             <p className="text-gray-400 mb-6 max-w-sm">
               Leading provider of innovative multilevel robotic parking solutions designed to optimize space and enhance user experience.
             </p>
+            <p className="text-gray-400 mb-2">
+              <span className="text-purple-400">Email:</span> sparkmachineries@gmail.com
+            </p>
+            <p className="text-gray-400 mb-2">
+              <span className="text-purple-400">Phone:</span> +91 9926446622
+            </p>
+            <p className="text-gray-400 mb-6">
+              <span className="text-purple-400">Address:</span> 132 FB scheme no. 94, Ring road, Indore
+            </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-gray-800 p-2 rounded-full text-white hover:bg-purple-600 transition-colors">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

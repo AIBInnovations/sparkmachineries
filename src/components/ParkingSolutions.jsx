@@ -1,6 +1,10 @@
 // components/ParkingSolutions.jsx
 
 import React, { useState } from 'react';
+import rotary from "../assets/rotary.jpg";
+import puzzle from "../assets/puzzle.png";
+import pit from "../assets/pit.jpg";
+import stack from "../assets/stack.jpeg";
 
 const parkingSolutions = [
   {
@@ -13,7 +17,7 @@ const parkingSolutions = [
       'Quiet operation',
       'Fast retrieval times'
     ],
-    image: '/api/placeholder/800/600'
+    image: rotary
   },
   {
     id: 'puzzle',
@@ -25,7 +29,7 @@ const parkingSolutions = [
       'Expandable design',
       'Suitable for irregular spaces'
     ],
-    image: '/api/placeholder/800/600'
+    image: puzzle
   },
   {
     id: 'pit',
@@ -37,7 +41,7 @@ const parkingSolutions = [
       'Weather protection',
       'Robust hydraulic system'
     ],
-    image: '/api/placeholder/800/600'
+    image: pit
   },
   {
     id: 'stack',
@@ -49,7 +53,7 @@ const parkingSolutions = [
       'Easy installation',
       'Minimal maintenance'
     ],
-    image: '/api/placeholder/800/600'
+    image: stack
   }
 ];
 
@@ -99,7 +103,7 @@ const ParkingSolutions = () => {
                 <img 
                   src={activeSolution.image} 
                   alt={activeSolution.title} 
-                  className="w-full h-64 md:h-80 object-cover"
+                  className="w-full h-auto object-contain rounded-t-xl"
                 />
               </div>
               <div className="p-8">
